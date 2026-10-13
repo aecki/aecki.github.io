@@ -1,13 +1,18 @@
 title: "Anthony Eckmann"
-description: "Real-time streaming pipelines, ML microservices, and data-quality engineering for mobility analytics."
+description: "ML Engineer at Datamap / posmo — streaming pipelines, map-matching, and transport-mode inference."
 baseurl: ""
 url: "https://aecki.github.io"
 theme: minima
 plugins: [jekyll-feed]
 
-# Project links used in the site
+header_pages:
+  - about.md
+
+# Project links referenced across the site
 projects:
   - name: "Posmo Streaming"
     url: "https://github.com/datamapio/posmo_streaming"
   - name: "Posmo ML Microservice"
     url: "https://github.com/datamapio/posmo-ml-microservice"
+  - name: "Posmo Model Dev"
+    url: "https://github.com/datamapio/posmo_model_dev"
