@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Alexander Ecki — Software Engineer
+title: Anthony Eckmann
 ---
 
 <p><strong>Real-time streaming pipelines, ML microservices, and data-quality engineering for mobility analytics.</strong></p>
