@@ -11,13 +11,12 @@ I build robust systems that turn noisy real-world movement data into accurate, p
 
 ## Projects
 
-### Posmo Streaming — reliable movement event pipelines
-- Built and improved streaming logic to reliably detect and persist "idle" (non-moving) events and to handle midnight and open-idle extensions without re-running full pipelines.
-- Implemented incremental idle-persistence and periodic midnight persistence so that non-moving events are captured consistently and cheaply.
+### Posmo Streaming — real-time movement recording pipeline
+- Built and improved streaming logic to reliably detect and persist moving and non-moving events.
 - Added open-idle extension logic and guards to avoid duplicate or premature persistence.
 - Fixed edge cases (short noisy walk segments, static point checks) to reduce false positives in mode detection.
 
-Repository: [Posmo Streaming](https://github.com/datamapio/posmo_streaming)
+Repository: https://github.com/datamapio/posmo_streaming
 
 ---
 
@@ -33,10 +32,10 @@ Repository: [Posmo Streaming — PT work](https://github.com/datamapio/posmo_str
 - Reduced cold-start time by limiting model downloads to only what's necessary.
 - Fixed prediction output handling so results align with supported transport modes.
 
-Repository: [Posmo ML Microservice](https://github.com/datamapio/posmo-ml-microservice)
+Repository: https://github.com/datamapio/posmo-ml-microservice
 
 ---
 
 ## Contact
 - GitHub: [aecki](https://github.com/aecki)
-- Email: (add your email here)
+- Email: anthony95<at>gmx.com
