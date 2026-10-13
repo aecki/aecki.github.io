@@ -1,4 +1,4 @@
-# Alexander Ecki
+# Anthony Eckmann
 
 This repository hosts the source for my GitHub Pages personal site (https://aecki.github.io).
 
