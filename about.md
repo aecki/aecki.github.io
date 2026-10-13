@@ -22,7 +22,7 @@ For projects see the [home page](/).
 
 ---
 
-## CV & education
+### CV & education
 
 [Download CV (PDF)](/assets/CV_Anthony_Eckmann.pdf)
 
@@ -38,7 +38,7 @@ For projects see the [home page](/).
 
 ---
 
-## Contact
+### Contact
 
 - GitHub: [aecki](https://github.com/aecki)
 - Email: anthony.e&lt;at&gt;gmx.ch
