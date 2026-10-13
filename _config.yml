@@ -1,0 +1,13 @@
+title: "Alexander Ecki — Software Engineer"
+description: "Real-time streaming pipelines, ML microservices, and data-quality engineering for mobility analytics."
+baseurl: ""
+url: "https://aecki.github.io"
+theme: minima
+plugins: [jekyll-feed]
+
+# Project links used in the site
+projects:
+  - name: "Posmo Streaming"
+    url: "https://github.com/datamapio/posmo_streaming"
+  - name: "Posmo ML Microservice"
+    url: "https://github.com/datamapio/posmo-ml-microservice"
