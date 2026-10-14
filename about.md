@@ -1,8 +1,6 @@
----
 layout: page
 title: About
 permalink: /about/
----
 
 I am a **Machine Learning Engineer** at [Datamap](https://datamap.io) / [posmo.coop](https://posmo.coop), where I build production systems that turn smartphone movement into reliable mobility insights. My work spans the full stack; from real-time data ingestion and public-transport journey reconstruction to model development, validation, and the implementation of advanced machine learning models for continuous, real-time transport-mode detection in the Posmo Project App.
 
@@ -12,7 +10,6 @@ Before joining Datamap, I completed an **MSc in Statistics at ETH Zurich** (2025
 
 **Languages:** German / Swiss German and French (native), English (C2).
 
----
 
 ### Outside work
 
@@ -20,7 +17,6 @@ Climbing and bouldering (routesetting at Minimum Bouldering Zurich), skiing, hik
 
 For projects see the [home page](/).
 
----
 
 ### CV & education
 
@@ -36,7 +32,6 @@ For projects see the [home page](/).
 
 **Photography:** [anthonyeckmann.ch](https://www.anthonyeckmann.ch)
 
----
 
 ### Contact
 

@@ -1,7 +1,7 @@
----
+
 layout: home
 title: Anthony Eckmann
----
+
 
 I am a **Machine Learning Engineer** at [Datamap](https://datamap.io) / [posmo.coop](https://posmo.coop), where I build production systems that turn smartphone movement into reliable mobility insights. My work spans the full stack; from real-time data ingestion and public-transport journey reconstruction to model development, validation, and the implementation of advanced machine learning models for continuous, real-time transport-mode detection in the Posmo Project App.
 
@@ -11,7 +11,6 @@ Before joining Datamap, I completed an **MSc in Statistics at ETH Zurich** (2025
 
 **Languages:** German / Swiss German and French (native), English (C2).
 
----
 
 ## Projects
 
@@ -26,7 +25,6 @@ Apache Flink backend that ingests live location streams, detects movement vs idl
 
 [github.com/datamapio/posmo_streaming](https://github.com/datamapio/posmo_streaming)
 
----
 
 ### Public transport map-matching & journey reconciliation
 
@@ -38,7 +36,6 @@ Work on the streaming stack to produce **continuous, map-aligned public-transpor
 
 Same codebase: [posmo_streaming](https://github.com/datamapio/posmo_streaming)
 
----
 
 ### Posmo ML microservice — transport-mode inference
 
@@ -50,7 +47,6 @@ FastAPI service ([ml.datamap.io](https://ml.datamap.io)) for hierarchical **UNet
 
 [github.com/datamapio/posmo-ml-microservice](https://github.com/datamapio/posmo-ml-microservice)
 
----
 
 ### Posmo model dev — training pipelines & experiments
 
@@ -63,7 +59,6 @@ Shared **conda-based training repo** for production Posmo models: U-Net segmenta
 
 [github.com/datamapio/posmo_model_dev](https://github.com/datamapio/posmo_model_dev)
 
----
 
 ### MSc thesis — managing data scarcity in sports analytics
 
