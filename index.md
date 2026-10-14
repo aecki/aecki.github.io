@@ -1,7 +1,9 @@
 ---
 layout: home
-title: Anthony Eckmann
+title: Home
 ---
+
+# Anthony Eckmann
 
 I am a **Machine Learning Engineer** at [Datamap](https://datamap.io) / [posmo.coop](https://posmo.coop), where I build production systems that turn smartphone movement into reliable mobility insights. My work spans the full stack; from real-time data ingestion and public-transport journey reconstruction to model development, validation, and the implementation of advanced machine learning models for continuous, real-time transport-mode detection in the Posmo Project App.
 

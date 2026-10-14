@@ -7,6 +7,7 @@ plugins: [jekyll-feed]
 
 header_pages:
   - about.md
+  - index.md
 
 # Project links referenced across the site
 projects:
