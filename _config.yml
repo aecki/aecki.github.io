@@ -1,19 +1,15 @@
-title: " "
-description: "Statistician and Machine Learning Engineer - Curious about data and how to make sense of it."
+title: Anthony Eckmann
+description: "Statistician and Machine Learning Engineer. Curious about data and how to make sense of it."
 baseurl: ""
 url: "https://aecki.github.io"
-theme: minima
-plugins: [jekyll-feed]
+plugins:
+  - jekyll-feed
 
-header_pages:
-  - index.md
-  - about.md
-
-# Project links referenced across the site
+# Public pages for the work described on the home page
 projects:
-  - name: "Posmo Streaming"
-    url: "https://github.com/datamapio/posmo_streaming"
-  - name: "Posmo ML Microservice"
-    url: "https://github.com/datamapio/posmo-ml-microservice"
-  - name: "Posmo Model Dev"
-    url: "https://github.com/datamapio/posmo_model_dev"
+  - name: "Posmo"
+    url: "https://posmo.coop"
+  - name: "Posmo Tracking"
+    url: "https://posmo.coop/products/tracking"
+  - name: "Posmo Project App"
+    url: "https://apps.apple.com/app/posmo-project/id1619128694"
