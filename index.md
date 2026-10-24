@@ -16,23 +16,21 @@ Before joining Datamap, I completed an **MSc in Statistics at ETH Zurich** (2025
 
 ### Real-time data pipeline
 
-I maintain and optimize the data pipeline behind the [Posmo Project App](https://apps.apple.com/app/posmo-project/id1619128694) ([Android](https://play.google.com/store/apps/details?id=io.datamap.posmoproject)) and [Posmo](https://posmo.coop). Live location from the app is ingested as a stream and processed per person on Apache Flink. The pipeline separates movement from stops, assigns a transport mode, reconstructs public-transport trips, and persists the day a participant opens, corrects, and validates.
+I maintain and optimize the streaming pipeline behind the [Posmo Project App](https://apps.apple.com/app/posmo-project/id1619128694) ([Android](https://play.google.com/store/apps/details?id=io.datamap.posmoproject)) and [Posmo](https://posmo.coop). The goal of the app is to create a continuous, automated mobility diary that fills itself in: GPS and onboard sensor data — motion and activity signals — are collected throughout the day by the phone. The pipeline’s job is to turn that raw stream into recognizable trips including GPS traces and transport mode information.
 
-[iOS](https://apps.apple.com/app/posmo-project/id1619128694) · [Android](https://play.google.com/store/apps/details?id=io.datamap.posmoproject) · [posmo.coop](https://posmo.coop)
+Traces are processed per person on Apache Flink as they arrive. The stream is segmented into stays and movements, denoised, and passed to the transport-mode detection models for inference, including trace routing for public transport. What comes back is a continuous timeline a participant can correct and validate, and the (anonymized) mobility record a [Posmo Tracking](https://posmo.coop/products/tracking) project analyses.
 
 
-### Transport-mode models
+### Transport-mode detection models
 
-I develop new segmentation and classification models for the transport-mode detection in the [Posmo Project App](https://apps.apple.com/app/posmo-project/id1619128694). Segmentation splits a trace into movements. Classification assigns each movement its mode. I train and evaluate both on labelled traces from the live system, and compare candidates with the models the app currently runs.
+I develop new segmentation and classification models for the transport-mode detection in the [Posmo Project App](https://apps.apple.com/app/posmo-project/id1619128694). Segmentation splits a trace into movements. Classification assigns each movement its transport mode. I train and evaluate both on labelled traces from the live system, and compare candidates with the models the app currently runs.
 
-[Posmo Project App](https://apps.apple.com/app/posmo-project/id1619128694) · [posmo.coop](https://posmo.coop)
 
 
 ### Mobility dashboards
 
 I build analytics dashboards for customers working with mobility data from a [Posmo Tracking](https://posmo.coop/products/tracking) project. A dashboard reads the journeys the app has collected — distance, mode, time of day, and how the study is filling in — so a city or a research group can analyse the data on [posmo.coop](https://posmo.coop).
 
-[Posmo Tracking](https://posmo.coop/products/tracking)
 
 
 ### MSc thesis
