@@ -5,13 +5,6 @@ title: Anthony Eckmann
 
 I am a **Machine Learning Engineer** at [Datamap](https://datamap.io) / [posmo.coop](https://posmo.coop), where I build production systems that turn smartphone movement into reliable mobility insights. My work spans the full stack; from real-time data ingestion and public-transport journey reconstruction to model development, validation, and the implementation of advanced machine learning models for continuous, real-time transport-mode detection in the Posmo Project App.
 
-Before joining Datamap, I completed an **MSc in Statistics at ETH Zurich** (2025), where my thesis focused on virtual sample generation for small, high-dimensional datasets, with applications in sports analytics. I also hold a **BSc in Mathematics** from the University of Zurich. I enjoy translating messy real-world data into robust models and pipelines that uncover meaningful patterns and insights.
-
-**Technical expertise:** Machine learning and statistical modelling · data engineering and pipeline development · feature engineering and ETL · Python, SQL and R · model validation and deployment.
-
-**Languages:** German / Swiss German and French (native), English (C2).
-
-
 ## Projects
 
 ### Real-time data pipeline
