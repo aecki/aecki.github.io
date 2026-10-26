@@ -38,5 +38,4 @@ For projects see the [home page](/).
 ### Contact
 
 - GitHub: [aecki](https://github.com/aecki)
-- Email: anthony95<at>gmx.ch
-- Photography: [anthonyeckmann.ch](https://www.anthonyeckmann.ch)
+- Email: anthony95&lt;at&gt;gmx.ch
