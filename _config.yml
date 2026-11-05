@@ -13,3 +13,5 @@ projects:
     url: "https://posmo.coop/products/tracking"
   - name: "Posmo Project App"
     url: "https://apps.apple.com/app/posmo-project/id1619128694"
+  - name: "Rainfall explorer"
+    url: "https://aecki.github.io/weather-modeller"

@@ -26,6 +26,18 @@ I build analytics dashboards for customers working with mobility data from a [Po
 
 
 
+### Rainfall explorer
+
+How much did it really rain where you live?
+
+The [Rainfall explorer](https://aecki.github.io/weather-modeller) estimates daily rainfall around any Swiss address and puts it in context using records dating back to 1961. See how often similar amounts have fallen in the same month, how uncertain that comparison is, and how monthly totals compare.
+
+Pro mode offers regional return-period models and a station explorer. You can also compare lake levels with their usual seasonal range and explore an experimental outlook for when levels might return to that range.
+
+Based on observations from MeteoSwiss and FOEN.
+
+
+
 ### MSc thesis
 
 **Managing Data Scarcity in Sports Analytics: Oversampling-Assisted Machine Learning for Forecasting Swiss Elite Climber Results**  
